@@ -2,14 +2,16 @@ import { BrowserRouter } from "react-router-dom";
 //Components
 import { Header } from "./components/organisms/Header/Header";
 import { AppRouter } from "./navigation/AppRouter";
-import GlobalStyle from "./styles/GlobalStyles";
+import {GlobalStyle, Container} from "./styles/GlobalStyles";
 
 function App() {
   return (
     <BrowserRouter>
     <GlobalStyle/>
-      <Header />
+    <Header />
+    <Container>
       <AppRouter />
+    </Container>
     </BrowserRouter>
   );
 }
