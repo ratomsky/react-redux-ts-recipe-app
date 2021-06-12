@@ -8,7 +8,6 @@ import { SearchSettings } from "../SearchSettings/SearchSettings";
 export const Header = () => {
   return (
     <HeaderWrapper>
-       Header
       <Logo />
       <Search />
       <SearchSettings />
