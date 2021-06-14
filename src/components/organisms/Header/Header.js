@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import { Container } from "../../../styles/GlobalStyles";
 import { HeaderWrapper, HeaderInner } from './Header.style';
@@ -15,7 +15,7 @@ export const Header = () => {
       <Container>
         <HeaderInner>
           <Logo />
-          <MobileSearchButton />
+          <MobileSearchButton/>
           <Search />
           <SettingsButton />
           <RecipeBookButton />
