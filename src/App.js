@@ -2,16 +2,17 @@ import { BrowserRouter } from "react-router-dom";
 //Components
 import { Header } from "./components/organisms/Header/Header";
 import { AppRouter } from "./navigation/AppRouter";
-import Container from "@material-ui/core/Container";
+import {GlobalStyle, Container} from "./styles/GlobalStyles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 //Style
 
 function App() {
   return (
     <BrowserRouter>
+      <GlobalStyle/>
       <CssBaseline />
       <Header />
-      <Container maxWidth="md">
+      <Container>
         <AppRouter />
       </Container>
     </BrowserRouter>

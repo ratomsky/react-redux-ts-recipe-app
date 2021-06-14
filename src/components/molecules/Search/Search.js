@@ -1,5 +1,12 @@
 import React from "react";
 
+import { SearchWrapper, SearchInput, SearchSubmit } from './Search.style';
+
 export const Search = () => {
-  return <div></div>;
+  return (
+      <SearchWrapper>
+        <SearchInput/>
+        <SearchSubmit type="submit">Search</SearchSubmit>
+    </SearchWrapper>
+  )
 };

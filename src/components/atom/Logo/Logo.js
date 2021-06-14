@@ -1,5 +1,7 @@
 import React from "react";
 
+import { LogoWrapper } from './Logo.style';
+
 export const Logo = () => {
-  return <div>Logo</div>;
+  return <LogoWrapper>React Recipes</LogoWrapper>;
 };
