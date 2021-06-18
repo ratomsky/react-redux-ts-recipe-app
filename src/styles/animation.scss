@@ -1,0 +1,17 @@
+.mobile-search-enter {
+    opacity: 0;
+}
+
+.mobile-search-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+}
+
+.mobile-search-exit {
+    opacity: 1;
+}
+
+.mobile-search-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+}
