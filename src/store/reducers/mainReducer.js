@@ -1,7 +1,7 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
 const mainReducer = createSlice({
-  name: "main",
+  name: 'main',
   initialState: {},
   reducers: {},
 });
